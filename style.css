@@ -1,0 +1,40 @@
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1500px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;   
+    column-gap: 30px; 
+    row-gap: 50px;
+}
+  .card{
+    width: 200px;
+    height: 400px;
+    /* line-height: 60px; */
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.card_title{
+    margin: 20px 0;
+    border: 1px solid black; 
+    border-radius: 10px;
+}
+.birth-day{
+   font-size: 12px;
+}
+.actor{
+    font-size: 13px;
+}
+.card_img{
+    width: 200px;
+    height: 200px;
+}
